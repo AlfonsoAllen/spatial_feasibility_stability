@@ -18,9 +18,9 @@ This repository contains all code used to reproduce the analyses and figures for
 > **Data note:** We do **not** deposit the large derived/output datasets due to file size. All outputs can be **regenerated** from the shared code (see below). Specific files can be provided on reasonable request.
 
 ## Requirements
-- **R** ≥ 4.2 (tested on: _fill in exact version_)  
-- **R packages:** `tidyverse`, `data.table`, `ggplot2`, `patchwork`, `Rcpp`, … _(list all)_  
-- **Maple** (optional, for symbolic derivations): Maple ≥ _version_ (e.g., 2021).  
+- **R** ≥ 4.2 (tested on: 4.4.3)  
+- **R packages:** `tidyverse`, `parallel`, `ggplot2`, `patchwork`, `latex2exp`, `av`, `data.table`, `scales`, `deSolve`
+- **Maple** (optional, for symbolic derivations): Maple ≥ 2023.0.  
   Maple is not required to reproduce the paper’s figures and videos; the R pipeline uses closed-form expressions already exported to R or computed within R.
 
 ## License
