@@ -19,7 +19,7 @@ This repository contains all code used to reproduce the analyses and figures for
 
 ## Requirements
 - **R** ≥ 4.2 (tested on: 4.4.3)  
-- **R packages:** `tidyverse`, `landscapemetrics`, `terra`, `parallel`, `ggplot2`, `patchwork`, `latex2exp`, `av`, `data.table`, `scales`, `deSolve`
+- **R packages:** `tidyverse`, `landscapemetrics`, `terra`, `parallel`, `ggplot2`, `patchwork`, `latex2exp`, `av`, `data.table`, `scales`
 - **Maple** (optional, for symbolic derivations): Maple ≥ 2023.0.  
   Maple is not required to reproduce the paper’s figures and videos; the R pipeline uses closed-form expressions already exported to R or computed within R.
 
